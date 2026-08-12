@@ -1,0 +1,42 @@
+name: fetch-plates
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Fetch plates from Wikimedia Commons
+        run: node tools/fetch-plates.mjs --width 1500
+
+      - name: Require most plates to have arrived
+        run: |
+          count=$(ls -1 art/*.jpg 2>/dev/null | wc -l)
+          echo "Downloaded $count plate(s)."
+          if [ "$count" -lt 12 ]; then
+            echo "::error::Only $count plates downloaded, expected at least 12."
+            exit 1
+          fi
+
+      - name: Commit
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -f art/
+          if git diff --cached --quiet; then
+            echo "Nothing changed - plates already committed."
+            exit 0
+          fi
+          git commit -m "Add public-domain backdrop plates from Wikimedia Commons"
+          git push
