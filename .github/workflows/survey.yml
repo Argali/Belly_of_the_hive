@@ -15,6 +15,9 @@ on:
 jobs:
   smoke-test:
     runs-on: ubuntu-latest
+    # belt and braces: the test exits itself, but a wedged job must
+    # never sit burning runner minutes up to GitHub's 6-hour default
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
 

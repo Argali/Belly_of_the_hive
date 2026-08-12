@@ -226,7 +226,25 @@ setTimeout(() => {
 
 function report(errs, maxNodes) {
   console.log('\n' + '─'.repeat(58));
-  if (errs.length) { console.log('FAILURES (' + errs.length + '):'); errs.slice(0, 12).forEach(e => console.log(' •', e)); process.exitCode = 1; }
+  if (errs.length) { console.log('FAILURES (' + errs.length + '):'); errs.slice(0, 12).forEach(e => console.log(' •', e)); }
   else console.log('NO ERRORS. Peak DOM inside <svg>: ' + maxNodes + ' nodes.');
   console.log('─'.repeat(58));
+  finish(errs.length ? 1 : 0);
 }
+
+/* Exit deliberately. jsdom's pretendToBeVisual installs its own
+   requestAnimationFrame loop, and main.js re-registers its frame
+   callback unconditionally, so the event loop never drains: node hangs
+   forever *after* the survey has already finished and reported. Tear
+   the window down and quit rather than idling until CI's own limit. */
+function finish(code) {
+  clearTimeout(watchdog);
+  try { window.close(); } catch (e) { /* already torn down */ }
+  process.exit(code);
+}
+
+/* If anything wedges before report() is reached, fail loudly. */
+const watchdog = setTimeout(() => {
+  console.error('\nTIMEOUT: the survey did not finish within 120 s.');
+  finish(1);
+}, 120000);
