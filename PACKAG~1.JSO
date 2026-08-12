@@ -1,0 +1,21 @@
+{
+  "name": "belly-of-the-hive",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A vertical cross-section survey of an Imperial hive city. Unofficial, non-commercial fan work. Static site — no build step, no runtime dependencies.",
+  "type": "commonjs",
+  "scripts": {
+    "test": "node tools/smoke-test.js",
+    "embed": "node tools/build-embed.js",
+    "plates": "node tools/fetch-plates.mjs",
+    "preview": "node tools/preview.js"
+  },
+  "devDependencies": {
+    "jsdom": "^24.0.0"
+  },
+  "optionalDependencies": {
+    "@resvg/resvg-js": "^2.6.0"
+  },
+  "keywords": ["svg", "procedural-generation", "static-site", "no-build"],
+  "license": "MIT"
+}

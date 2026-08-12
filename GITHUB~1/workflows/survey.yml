@@ -1,0 +1,38 @@
+name: survey
+
+# Runs the headless descent on every push: boots the site in jsdom,
+# drives all 46.4 km, opens every structural record, fires every
+# narrative event, checks the field notes are reachable, the readings
+# trend with depth, the panels can actually be closed, every plate
+# author is credited, and the city is byte-identical between builds.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  smoke-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dev tooling
+        run: npm install --no-audit --no-fund
+
+      - name: Check data/embedded.js is in sync with data/*.json
+        run: |
+          node tools/build-embed.js
+          if ! git diff --quiet -- data/embedded.js; then
+            echo "::error::data/embedded.js is stale. Run 'node tools/build-embed.js' and commit."
+            git diff --stat -- data/embedded.js
+            exit 1
+          fi
+
+      - name: Descend
+        run: node tools/smoke-test.js

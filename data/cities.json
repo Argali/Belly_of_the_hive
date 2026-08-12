@@ -1,0 +1,14 @@
+{
+  "registry": [
+    { "id": "terra",      "label": "TERRA",      "designation": "HIVE CITY 001", "file": "data/terra.json", "available": true,
+      "denial": null },
+    { "id": "necromunda", "label": "NECROMUNDA",  "designation": "HIVE PRIMUS",  "file": "data/necromunda.json", "available": false,
+      "denial": ["ARCHIVE ACCESS DENIED", "", "CITY DATABASE UNDER CONSTRUCTION.", "", "SURVEY OF HIVE PRIMUS SUSPENDED", "PENDING RESOLUTION OF ONGOING", "CIVIL DISORDER (M40 — PRESENT)."] },
+    { "id": "mars",       "label": "MARS",        "designation": "FORGE SPRAWL", "file": "data/mars.json", "available": false,
+      "denial": ["ARCHIVE ACCESS DENIED", "", "CITY DATABASE UNDER CONSTRUCTION.", "", "ADEPTUS MECHANICUS HOLDS ALL", "STRUCTURAL RECORDS OF MARS.", "", "REQUEST FILED. M38.220.", "AWAITING RESPONSE."] },
+    { "id": "armageddon", "label": "ARMAGEDDON",  "designation": "HIVE HADES",   "file": "data/armageddon.json", "available": false,
+      "denial": ["ARCHIVE ACCESS DENIED", "", "CITY DATABASE UNDER CONSTRUCTION.", "", "STRUCTURAL SURVEY INVALID.", "SURVEYED GEOMETRY NO LONGER", "CORRESPONDS TO EXTANT CITY."] },
+    { "id": "macragge",   "label": "MACRAGGE",    "designation": "HERA'S CROWN", "file": "data/macragge.json", "available": false,
+      "denial": ["ARCHIVE ACCESS DENIED", "", "CITY DATABASE UNDER CONSTRUCTION.", "", "ACCESS RESTRICTED TO ULTRAMAR", "ADMINISTRATIVE PERSONNEL.", "", "YOUR CLEARANCE: PROVISIONAL."] }
+  ]
+}

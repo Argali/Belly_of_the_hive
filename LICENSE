@@ -1,0 +1,37 @@
+MIT License
+
+Copyright (c) 2026 Erwan Kervazo
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+--------------------------------------------------------------------------------
+
+SCOPE OF THIS LICENCE
+
+This licence covers the software in this repository: the rendering engine, the
+procedural generators, the tooling, and the original prose written for it.
+
+It does NOT grant any right in the Warhammer 40,000 setting, which is the
+property of Games Workshop Limited. See NOTICE.md. Anyone reusing this code to
+make something set in that world is subject to Games Workshop's own
+intellectual property guidelines, not to this licence.
+
+The optional historical plates downloadable via tools/fetch-plates.mjs are in
+the public domain and are not covered by, or restricted by, this licence. They
+are not distributed in this repository.

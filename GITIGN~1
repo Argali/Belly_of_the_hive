@@ -1,0 +1,20 @@
+# Downloaded historical plates. Public domain, so redistributing them
+# would be legal — but they are large binaries that any clone can
+# regenerate with `node tools/fetch-plates.mjs`, and the survey renders
+# perfectly without them.
+art/
+
+# Dev-only tooling (jsdom, resvg). The site itself has no dependencies.
+node_modules/
+package-lock.json
+
+# Generated preview renders. Keep the two reference images, drop the rest.
+tools/preview/depth-*.png
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp

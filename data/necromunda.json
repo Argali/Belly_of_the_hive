@@ -1,0 +1,18 @@
+{
+  "_schema": "Skeleton for a second city. Fill layers/structures/events to the same shape as terra.json, then flip `available` to true in data/cities.json and run tools/build-embed.js. No engine changes are required.",
+  "id": "necromunda",
+  "designation": "HIVE PRIMUS",
+  "world": "NECROMUNDA",
+  "subtitle": "SEGMENTUM SOLAR / HIVE WORLD",
+  "archiveCode": "M41.██.███-R",
+  "status": "SURVEY SUSPENDED",
+  "seed": 40002,
+  "skyTop": -900,
+  "officialFloor": 32000,
+  "maxDepth": 36000,
+  "layers": [],
+  "structures": [],
+  "events": [],
+  "notes": [],
+  "scaleLadder": []
+}

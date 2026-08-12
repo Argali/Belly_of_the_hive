@@ -1,0 +1,1083 @@
+{
+  "id": "terra",
+  "designation": "HIVE CITY 001",
+  "world": "TERRA",
+  "subtitle": "SOL SYSTEM / SEGMENTUM SOLAR",
+  "archiveCode": "M41.994.117-A",
+  "status": "ACTIVE",
+  "seed": 40001,
+  "skyTop": -1200,
+  "officialFloor": 40000,
+  "maxDepth": 45200,
+  "layers": [
+    {
+      "id": "surface",
+      "name": "SURFACE",
+      "top": -1200,
+      "bottom": 500,
+      "descriptor": "PROMENADE OF SAINTS",
+      "density": 0.42,
+      "palette": {
+        "skyTop": "#c9c1a8",
+        "skyBottom": "#8a8f92",
+        "haze": "#d8d2bd",
+        "structA": "#6f6c62",
+        "structB": "#565349",
+        "structC": "#403d36",
+        "far": "#8d8f8a",
+        "line": "#2b2924",
+        "light": "#ffd79a",
+        "accent": "#c8a34a",
+        "text": "#e6dfcb"
+      },
+      "env": { "fog": 0.10, "grime": 0.0, "dust": 0.25, "sparks": 0.0, "flicker": 0.0, "noise": 0.03, "glitch": 0.0, "vignette": 0.28 },
+      "readings": {
+        "density": 0.4, "tithe": 100, "air": 96, "temp": 19, "lumen": 100,
+        "vox": 100, "lifespan": 84, "load": 0.0, "control": "ABSOLUTE"
+      }
+    },
+    {
+      "id": "upper",
+      "name": "UPPER HIVE",
+      "top": 500,
+      "bottom": 2000,
+      "descriptor": "SPIRE ADMINISTRATIVE DISTRICTS",
+      "density": 0.68,
+      "palette": {
+        "skyTop": "#6e6f68",
+        "skyBottom": "#4a4a46",
+        "haze": "#7c7a6d",
+        "structA": "#5c584e",
+        "structB": "#464339",
+        "structC": "#312e28",
+        "far": "#5a5a53",
+        "line": "#211f1b",
+        "light": "#ffcb7a",
+        "accent": "#b8933f",
+        "text": "#ded7c2"
+      },
+      "env": { "fog": 0.22, "grime": 0.12, "dust": 0.45, "sparks": 0.02, "flicker": 0.02, "noise": 0.05, "glitch": 0.0, "vignette": 0.36 },
+      "readings": {
+        "density": 3.1, "tithe": 99, "air": 88, "temp": 22, "lumen": 58,
+        "vox": 99, "lifespan": 71, "load": 0.4, "control": "ABSOLUTE"
+      }
+    },
+    {
+      "id": "mid",
+      "name": "MID HIVE",
+      "top": 2000,
+      "bottom": 8000,
+      "descriptor": "MANUFACTORUM BELT",
+      "density": 0.88,
+      "palette": {
+        "skyTop": "#43382c",
+        "skyBottom": "#2e2620",
+        "haze": "#5a4531",
+        "structA": "#484137",
+        "structB": "#342f28",
+        "structC": "#23201b",
+        "far": "#3d372f",
+        "line": "#171512",
+        "light": "#ff9a3c",
+        "accent": "#c9762a",
+        "text": "#d6cbb2"
+      },
+      "env": { "fog": 0.38, "grime": 0.35, "dust": 0.7, "sparks": 0.25, "flicker": 0.06, "noise": 0.07, "glitch": 0.0, "vignette": 0.46 },
+      "readings": {
+        "density": 9.4, "tithe": 91, "air": 54, "temp": 34, "lumen": 11,
+        "vox": 92, "lifespan": 48, "load": 2.1, "control": "ROUTINE"
+      }
+    },
+    {
+      "id": "lower",
+      "name": "LOWER HIVE",
+      "top": 8000,
+      "bottom": 15000,
+      "descriptor": "SUMP-FACING INDUSTRIAL STRATA",
+      "density": 0.95,
+      "palette": {
+        "skyTop": "#241c17",
+        "skyBottom": "#161110",
+        "haze": "#3d2118",
+        "structA": "#332c25",
+        "structB": "#231e19",
+        "structC": "#171310",
+        "far": "#241f1a",
+        "line": "#0d0b09",
+        "light": "#ff6a26",
+        "accent": "#a8471c",
+        "text": "#c2b69b"
+      },
+      "env": { "fog": 0.52, "grime": 0.62, "dust": 0.85, "sparks": 0.55, "flicker": 0.16, "noise": 0.10, "glitch": 0.02, "vignette": 0.58 },
+      "readings": {
+        "density": 14.2, "tithe": 62, "air": 31, "temp": 47, "lumen": 2.4,
+        "vox": 64, "lifespan": 31, "load": 5.6, "control": "INTERMITTENT"
+      }
+    },
+    {
+      "id": "underhive",
+      "name": "UNDERHIVE",
+      "top": 15000,
+      "bottom": 30000,
+      "descriptor": "UNSANCTIONED HABITATION",
+      "density": 0.72,
+      "palette": {
+        "skyTop": "#0e1210",
+        "skyBottom": "#070908",
+        "haze": "#16241c",
+        "structA": "#2e3430",
+        "structB": "#212624",
+        "structC": "#151817",
+        "far": "#1b201d",
+        "line": "#060707",
+        "light": "#7dff9e",
+        "accent": "#3f8f5a",
+        "text": "#9fb3a4"
+      },
+      "env": { "fog": 0.66, "grime": 0.8, "dust": 0.6, "sparks": 0.35, "flicker": 0.42, "noise": 0.14, "glitch": 0.10, "vignette": 0.72 },
+      "readings": {
+        "density": 4.8, "tithe": 0, "air": 17, "temp": 39, "lumen": 0.2,
+        "vox": 11, "lifespan": 22, "load": 7.9, "control": "NONE"
+      }
+    },
+    {
+      "id": "forgotten",
+      "name": "THE FORGOTTEN LEVELS",
+      "top": 30000,
+      "bottom": 40000,
+      "descriptor": "PRE-IMPERIAL SUBSTRATE",
+      "density": 0.5,
+      "palette": {
+        "skyTop": "#080a12",
+        "skyBottom": "#04050a",
+        "haze": "#121a2c",
+        "structA": "#2b3346",
+        "structB": "#1c2231",
+        "structC": "#12161f",
+        "far": "#161b27",
+        "line": "#05060a",
+        "light": "#6fa8ff",
+        "accent": "#3c5f9c",
+        "text": "#9fb0cc"
+      },
+      "env": { "fog": 0.74, "grime": 0.5, "dust": 0.35, "sparks": 0.1, "flicker": 0.3, "noise": 0.18, "glitch": 0.34, "vignette": 0.8 },
+      "readings": {
+        "density": 0.0, "tithe": 0, "air": 9, "temp": 61, "lumen": 0,
+        "vox": 1, "lifespan": 0, "load": 8.4, "control": "NO RECORD"
+      }
+    },
+    {
+      "id": "unknown",
+      "name": "UNKNOWN",
+      "top": 40000,
+      "bottom": 45200,
+      "descriptor": "NO CLASSIFICATION",
+      "density": 0.3,
+      "palette": {
+        "skyTop": "#050408",
+        "skyBottom": "#020103",
+        "haze": "#150c1e",
+        "structA": "#241a38",
+        "structB": "#181128",
+        "structC": "#0f0a1a",
+        "far": "#130d20",
+        "line": "#030204",
+        "light": "#c08cff",
+        "accent": "#6a3fa0",
+        "text": "#b9a6d6"
+      },
+      "env": { "fog": 0.85, "grime": 0.3, "dust": 0.18, "sparks": 0.04, "flicker": 0.55, "noise": 0.24, "glitch": 0.75, "vignette": 0.9 },
+      "readings": {
+        "density": 0.0, "tithe": 0, "air": 4, "temp": 74, "lumen": 0,
+        "vox": 0, "lifespan": 0, "load": 8.9, "control": "—"
+      }
+    }
+  ],
+
+  "structures": [
+    {
+      "id": "spire-sanctus",
+      "name": "CATHEDRAL SPIRE OF THE SANCTUS PRIMARIS",
+      "kind": "cathedral",
+      "depth": -980,
+      "x": -180,
+      "w": 260,
+      "h": 1900,
+      "info": {
+        "HEIGHT": "1,904 m",
+        "DEPTH": "+980 m ABOVE DATUM",
+        "POPULATION": "41,000 (CLERGY)",
+        "CONSTRUCTION": "M32.114",
+        "ARCHITECTURAL STYLE": "High Imperial Gothic",
+        "PRIMARY FUNCTION": "Devotion / Orbital Beacon",
+        "MAINTENANCE STATUS": "CURRENT",
+        "CHOIR": "12,000 voices, continuous since M33"
+      },
+      "note": "The bells have not stopped in nine thousand years. Three shifts of ringers. None are permitted to descend."
+    },
+    {
+      "id": "aquila-plaza",
+      "name": "PLAZA OF THE TEN THOUSAND STEPS",
+      "kind": "plaza",
+      "depth": 20,
+      "x": 210,
+      "w": 520,
+      "h": 90,
+      "info": {
+        "SURFACE AREA": "1.9 km²",
+        "DEPTH": "0 m — DATUM",
+        "POPULATION": "180,000 (TRANSIENT)",
+        "CONSTRUCTION": "M31.002 / REBUILT M38.771",
+        "ARCHITECTURAL STYLE": "Monumental Ecclesiarchal",
+        "PRIMARY FUNCTION": "Pilgrimage Terminus",
+        "MAINTENANCE STATUS": "CURRENT",
+        "STATUARY": "1,412 saints, 3 unidentified"
+      },
+      "note": "Three statues bear no name plate. The Adeptus Ministorum has scheduled an inquiry. It was scheduled in M39."
+    },
+    {
+      "id": "transit-primus",
+      "name": "SPIRE TRANSIT NEXUS PRIMUS",
+      "kind": "transit",
+      "depth": 420,
+      "x": -60,
+      "w": 420,
+      "h": 180,
+      "info": {
+        "PLATFORMS": "88",
+        "DEPTH": "-420 m",
+        "THROUGHPUT": "4.1 million souls / day",
+        "CONSTRUCTION": "M34.209",
+        "ARCHITECTURAL STYLE": "Imperial Utilitarian Gothic",
+        "PRIMARY FUNCTION": "Vertical Mass Transit",
+        "MAINTENANCE STATUS": "31 years overdue",
+        "DESCENT PERMITS ISSUED": "0.02% of requests"
+      },
+      "note": "Downward travel requires clearance. Upward travel requires clearance and a reason."
+    },
+    {
+      "id": "archive-17",
+      "name": "ADMINISTRATUM ARCHIVE COMPLEX 17",
+      "kind": "admin",
+      "depth": 842,
+      "x": 150,
+      "w": 300,
+      "h": 1842,
+      "info": {
+        "HEIGHT": "1,842 m",
+        "DEPTH": "-842 m",
+        "POPULATION": "3.2 million",
+        "CONSTRUCTION": "M32",
+        "ARCHITECTURAL STYLE": "Imperial Gothic",
+        "PRIMARY FUNCTION": "Bureaucracy",
+        "MAINTENANCE STATUS": "417 years overdue",
+        "RECORDS HELD": "estimated 9.4 × 10¹⁴"
+      },
+      "note": "No scribe assigned to Archive 17 has ever completed the indexing of their own floor.",
+      "revisit": {
+        "count": 3,
+        "name": "ADMINISTRATUM ARCHIVE COMPLEX 17",
+        "info": {
+          "HEIGHT": "1,842 m",
+          "DEPTH": "-842 m",
+          "POPULATION": "3.2 million",
+          "CONSTRUCTION": "M32",
+          "ARCHITECTURAL STYLE": "Imperial Gothic",
+          "PRIMARY FUNCTION": "Bureaucracy",
+          "MAINTENANCE STATUS": "417 years overdue",
+          "RECORDS HELD": "estimated 9.4 × 10¹⁴",
+          "AMENDMENT": "THIS ENTRY HAS BEEN ACCESSED 3 TIMES"
+        },
+        "note": "AMENDMENT FILED THIS SESSION: Archive 17 contains a requisition for the demolition of Archive 17, approved M35, never executed. The requisition is stored in Archive 17."
+      }
+    },
+    {
+      "id": "hab-legion",
+      "name": "HAB-STACK LEGIO CIVITAS 44",
+      "kind": "hab",
+      "depth": 1250,
+      "x": -290,
+      "w": 240,
+      "h": 900,
+      "info": {
+        "HEIGHT": "902 m",
+        "DEPTH": "-1,250 m",
+        "POPULATION": "1.1 million",
+        "HABITATION UNITS": "214,000",
+        "CONSTRUCTION": "M35.440",
+        "ARCHITECTURAL STYLE": "Standard Template Habitation",
+        "PRIMARY FUNCTION": "Housing (Grade IV)",
+        "MAINTENANCE STATUS": "88 years overdue",
+        "AIR RATION": "0.9 standard"
+      },
+      "note": "Windows are a privilege of the upper 40 floors. Below that, painted."
+    },
+    {
+      "id": "ossuary-bridge",
+      "name": "THE BRIDGE OF PENITENT ENGINEERS",
+      "kind": "bridge",
+      "depth": 1780,
+      "x": 0,
+      "w": 900,
+      "h": 70,
+      "info": {
+        "SPAN": "3.4 km",
+        "DEPTH": "-1,780 m",
+        "LOAD RATING": "EXPIRED M37",
+        "CONSTRUCTION": "M33.881",
+        "ARCHITECTURAL STYLE": "Structural Ecclesiastic",
+        "PRIMARY FUNCTION": "Load Transfer / Memorial",
+        "MAINTENANCE STATUS": "1,204 years overdue",
+        "INTERRED": "40,112 construction dead"
+      },
+      "note": "Every engineer who died in its construction is named on it. The list is the load-bearing element."
+    },
+    {
+      "id": "manufactorum-gamma",
+      "name": "MANUFACTORUM GAMMA-VEXILLUM",
+      "kind": "factory",
+      "depth": 2600,
+      "x": -220,
+      "w": 460,
+      "h": 1200,
+      "info": {
+        "HEIGHT": "1,204 m",
+        "DEPTH": "-2,600 m",
+        "WORKFORCE": "2.8 million",
+        "OUTPUT": "Lasgun power cells, 4.4 billion / annum",
+        "CONSTRUCTION": "M33.019",
+        "ARCHITECTURAL STYLE": "Brutal Industrial Gothic",
+        "PRIMARY FUNCTION": "Munitions",
+        "MAINTENANCE STATUS": "212 years overdue",
+        "SHIFT LENGTH": "18 hours"
+      },
+      "note": "The machine spirits are appeased hourly. Production has not halted for a rite in 900 years; the rites are performed while the line runs."
+    },
+    {
+      "id": "vent-atlas",
+      "name": "ATMOSPHERIC EXCHANGE COLUMN 'ATLAS'",
+      "kind": "vent",
+      "depth": 3400,
+      "x": 300,
+      "w": 190,
+      "h": 3800,
+      "info": {
+        "DIAMETER": "188 m",
+        "DEPTH": "-3,400 m (MID SECTION)",
+        "VERTICAL EXTENT": "3.8 km",
+        "THROUGHPUT": "11.2 million m³ / minute",
+        "CONSTRUCTION": "M32.700",
+        "PRIMARY FUNCTION": "Life Support",
+        "MAINTENANCE STATUS": "CONTINUOUS (144 dead / annum)",
+        "FILTRATION": "62% nominal"
+      },
+      "note": "Objects fall into Atlas. Nothing has ever been recovered from Atlas."
+    },
+    {
+      "id": "market-thousand",
+      "name": "MARKET OF THE THOUSAND HUNGERS",
+      "kind": "market",
+      "depth": 4200,
+      "x": -40,
+      "w": 620,
+      "h": 220,
+      "info": {
+        "AREA": "0.8 km²",
+        "DEPTH": "-4,200 m",
+        "POPULATION": "410,000 (DAILY)",
+        "CONSTRUCTION": "UNRECORDED — ACCRETED",
+        "ARCHITECTURAL STYLE": "Improvised / Parasitic",
+        "PRIMARY FUNCTION": "Nutrient Distribution",
+        "MAINTENANCE STATUS": "NOT ADMINISTERED",
+        "TITHE COMPLIANCE": "17%"
+      },
+      "note": "Corpse-starch here is graded. Grade One is not discussed."
+    },
+    {
+      "id": "reactor-sanctified",
+      "name": "PLASMA REACTORIUM SANCTIFIED-IX",
+      "kind": "reactor",
+      "depth": 6100,
+      "x": 240,
+      "w": 520,
+      "h": 900,
+      "info": {
+        "OUTPUT": "44.1 petawatt-hours / annum",
+        "DEPTH": "-6,100 m",
+        "TENDING PRIESTHOOD": "62,000",
+        "CONSTRUCTION": "M31.550",
+        "ARCHITECTURAL STYLE": "Mechanicus Sacral",
+        "PRIMARY FUNCTION": "Power Generation",
+        "MAINTENANCE STATUS": "SANCTIFIED — INSPECTION FORBIDDEN",
+        "CONTAINMENT": "NOMINAL (LAST VERIFIED M37)"
+      },
+      "note": "The Adeptus Mechanicus asserts that observation of the core constitutes interference. The core has therefore not been observed in four thousand years."
+    },
+    {
+      "id": "sump-cranes",
+      "name": "ORDINATE LIFT ASSEMBLY 'THE GALLOWS'",
+      "kind": "crane",
+      "depth": 8600,
+      "x": -330,
+      "w": 380,
+      "h": 700,
+      "info": {
+        "LIFT CAPACITY": "180,000 tonnes",
+        "DEPTH": "-8,600 m",
+        "OPERATORS": "4,100",
+        "CONSTRUCTION": "M36.112",
+        "ARCHITECTURAL STYLE": "Structural Industrial",
+        "PRIMARY FUNCTION": "Vertical Cargo",
+        "MAINTENANCE STATUS": "740 years overdue",
+        "FATALITY RATE": "1 per 900 operating hours"
+      },
+      "note": "Nine of the twelve gantries are load-bearing for the district above. They cannot be stopped for repair."
+    },
+    {
+      "id": "waste-primaris",
+      "name": "EFFLUENT RECLAMATION WORKS PRIMARIS",
+      "kind": "waste",
+      "depth": 10400,
+      "x": 100,
+      "w": 700,
+      "h": 620,
+      "info": {
+        "PROCESSING": "2.1 million tonnes / day",
+        "DEPTH": "-10,400 m",
+        "WORKFORCE": "900,000 (UNREGISTERED: EST. 400,000)",
+        "CONSTRUCTION": "M34",
+        "ARCHITECTURAL STYLE": "Utilitarian Decayed",
+        "PRIMARY FUNCTION": "Waste / Corpse Reclamation",
+        "MAINTENANCE STATUS": "2,100 years overdue",
+        "AVERAGE WORKER LIFESPAN": "31 standard years"
+      },
+      "note": "The works process everything the hive discards. This includes the workers."
+    },
+    {
+      "id": "gang-spire",
+      "name": "CONTESTED STRUCTURE — 'THE IRON CHOIR'",
+      "kind": "ruin",
+      "depth": 12800,
+      "x": -160,
+      "w": 340,
+      "h": 800,
+      "info": {
+        "HEIGHT": "UNSURVEYED",
+        "DEPTH": "-12,800 m",
+        "POPULATION": "DISPUTED",
+        "CONSTRUCTION": "M33 (ORIGINAL FUNCTION UNKNOWN)",
+        "ARCHITECTURAL STYLE": "Gothic / Overbuilt / Fortified",
+        "PRIMARY FUNCTION": "FORMERLY: Ore Refinery. CURRENTLY: —",
+        "MAINTENANCE STATUS": "ABANDONED BY ADMINISTRATUM M38",
+        "ENFORCER PRESENCE": "NONE SINCE M40.611"
+      },
+      "note": "Arbites doctrine classifies this structure as 'outside the effective boundary of the city'. It is 12.8 km inside the city."
+    },
+    {
+      "id": "tunnel-forgotten-rail",
+      "name": "SUBTERRANEAN RAIL — LINE ██ (DECOMMISSIONED)",
+      "kind": "tunnel",
+      "depth": 14600,
+      "x": 260,
+      "w": 640,
+      "h": 130,
+      "info": {
+        "GAUGE": "9.4 m",
+        "DEPTH": "-14,600 m",
+        "TERMINI": "PRIMUS-NINE / ████████",
+        "CONSTRUCTION": "M32",
+        "PRIMARY FUNCTION": "Bulk Ore Transit",
+        "MAINTENANCE STATUS": "DECOMMISSIONED M35.802",
+        "LAST RECORDED TRANSIT": "M41.981",
+        "NOTE": "DECOMMISSIONED LINES DO NOT RECORD TRANSITS"
+      },
+      "note": "The line was sealed at both ends. Both seals are intact. Something used it 13 years ago."
+    },
+    {
+      "id": "settlement-ashfall",
+      "name": "UNSANCTIONED SETTLEMENT 'ASHFALL'",
+      "kind": "shanty",
+      "depth": 16800,
+      "x": -80,
+      "w": 560,
+      "h": 300,
+      "info": {
+        "POPULATION": "NOT COUNTED",
+        "DEPTH": "-16,800 m",
+        "CONSTRUCTION": "CONTINUOUS / IMPROVISED",
+        "ARCHITECTURAL STYLE": "Scavenged",
+        "PRIMARY FUNCTION": "Survival",
+        "IMPERIAL RECOGNITION": "NONE",
+        "TITHE ASSESSED": "N/A — POPULATION DOES NOT EXIST",
+        "GENERATIONS RESIDENT": "at least 40"
+      },
+      "note": "Forty generations of people the Imperium has never once acknowledged. They still pray."
+    },
+    {
+      "id": "pipe-leviathan",
+      "name": "CONDUIT ASSEMBLY — DESIGNATION 'LEVIATHAN'",
+      "kind": "pipe",
+      "depth": 19500,
+      "x": 320,
+      "w": 240,
+      "h": 5200,
+      "info": {
+        "DIAMETER": "236 m",
+        "DEPTH": "-19,500 m (MID SECTION)",
+        "CONTENTS": "UNKNOWN — PRESSURISED",
+        "CONSTRUCTION": "PREDATES SURROUNDING STRATA",
+        "PRIMARY FUNCTION": "UNDETERMINED",
+        "MAINTENANCE STATUS": "NO ACCESS PORTS EXIST",
+        "TEMPERATURE": "+61°C SURFACE",
+        "FLOW DIRECTION": "UPWARD"
+      },
+      "note": "It goes up. Nothing in the hive is recorded as receiving it."
+    },
+    {
+      "id": "toxic-lake",
+      "name": "SUMP RESERVOIR — 'THE PATIENT WATER'",
+      "kind": "sump",
+      "depth": 22400,
+      "x": -60,
+      "w": 900,
+      "h": 260,
+      "info": {
+        "AREA": "4.4 km²",
+        "DEPTH": "-22,400 m",
+        "DEPTH OF WATER": "UNMEASURED (SOUNDING LINE LOST)",
+        "COMPOSITION": "PROMETHIUM, HEAVY METALS, ORGANIC",
+        "PRIMARY FUNCTION": "ACCUMULATION",
+        "MAINTENANCE STATUS": "N/A",
+        "BIOLOGICAL ACTIVITY": "CONFIRMED",
+        "BIOLOGICAL CLASSIFICATION": "PENDING SINCE M38"
+      },
+      "note": "The sounding line was 4 kilometres long."
+    },
+    {
+      "id": "machine-halt",
+      "name": "MACHINERY OF UNKNOWN PURPOSE — HALL 9",
+      "kind": "machine",
+      "depth": 25900,
+      "x": 140,
+      "w": 700,
+      "h": 480,
+      "info": {
+        "DIMENSIONS": "700 m × 480 m × UNSURVEYED",
+        "DEPTH": "-25,900 m",
+        "CONSTRUCTION": "PRE-IMPERIAL (DISPUTED)",
+        "ARCHITECTURAL STYLE": "NOT IMPERIAL",
+        "PRIMARY FUNCTION": "UNKNOWN",
+        "OPERATIONAL STATUS": "RUNNING",
+        "POWER SOURCE": "NOT IDENTIFIED",
+        "MECHANICUS RULING": "DO NOT INTERRUPT"
+      },
+      "note": "It has been running since before the hive was founded. It does not appear to be connected to anything."
+    },
+    {
+      "id": "sealed-door",
+      "name": "SEALED ACCESS — DESIGNATION XVII-C",
+      "kind": "door",
+      "depth": 28600,
+      "x": -220,
+      "w": 300,
+      "h": 420,
+      "info": {
+        "DIMENSIONS": "300 m × 420 m",
+        "DEPTH": "-28,600 m",
+        "MATERIAL": "UNIDENTIFIED ALLOY",
+        "SEALED": "M33.004 BY ORDER OF THE HOLY ORDOS",
+        "SEALS INTACT": "YES",
+        "SEALS APPLIED FROM": "THIS SIDE",
+        "PRIMARY FUNCTION": "CONTAINMENT",
+        "STANDING ORDER": "DO NOT OPEN LOWER ACCESS"
+      },
+      "note": "The mechanism is on the far side. It was sealed from here, by people who could not have installed it."
+    },
+    {
+      "id": "ancient-vault",
+      "name": "STRUCTURE — NO IMPERIAL DESIGNATION",
+      "kind": "ancient",
+      "depth": 31500,
+      "x": 0,
+      "w": 980,
+      "h": 1400,
+      "info": {
+        "DIMENSIONS": "980 m × 1,400 m (VISIBLE PORTION)",
+        "DEPTH": "-31,500 m",
+        "ARCHITECTURAL CLASSIFICATION": "UNKNOWN",
+        "STRUCTURAL AGE": "GREATER THAN CRUST STRATUM ABOVE IT",
+        "POPULATION": "UNKNOWN",
+        "IMPERIAL RECORD": "NO DATA",
+        "LAST INSPECTION": "M.██.██",
+        "SURFACE": "SMOOTH. NO JOINTS. NO WEAR."
+      },
+      "note": "The hive was built on top of it. The hive's founders left no record of finding it. That is itself a record."
+    },
+    {
+      "id": "geometry-fault",
+      "name": "██████████ ███ ██",
+      "kind": "anomaly",
+      "depth": 34800,
+      "x": -150,
+      "w": 620,
+      "h": 900,
+      "info": {
+        "ARCHITECTURAL CLASSIFICATION": "UNKNOWN",
+        "STRUCTURAL AGE": "UNKNOWN",
+        "POPULATION": "UNKNOWN",
+        "IMPERIAL RECORD": "NO DATA",
+        "LAST INSPECTION": "M.██.██",
+        "SURVEY ATTEMPTS": "7",
+        "SURVEY TEAMS RETURNED": "7",
+        "SURVEY TEAMS AGREEING ON DIMENSIONS": "0"
+      },
+      "note": "Each team measured it accurately. No two measurements match. All seven reports are filed as correct."
+    },
+    {
+      "id": "column-eternal",
+      "name": "LOAD COLUMN — 'IT WAS ALREADY HERE'",
+      "kind": "ancient",
+      "depth": 37600,
+      "x": 280,
+      "w": 300,
+      "h": 3200,
+      "info": {
+        "DIAMETER": "298 m",
+        "DEPTH": "-37,600 m (MID SECTION)",
+        "LOAD BEARING": "YES — ENTIRE NORTHERN QUADRANT",
+        "CONSTRUCTION": "NOT BY THE IMPERIUM",
+        "ARCHITECTURAL STYLE": "NONE RECOGNISED",
+        "MAINTENANCE STATUS": "REQUIRES NONE",
+        "STRUCTURAL SURVEY": "COLUMN CONTINUES BELOW SURVEY LIMIT",
+        "IMPERIAL RECORD": "LISTED AS 'ORIGINAL CONSTRUCTION'"
+      },
+      "note": "Forty thousand metres of hive rest on columns the Imperium did not build and cannot describe. The Administratum has classified them as original construction. This is administratively true."
+    },
+    {
+      "id": "the-floor",
+      "name": "OFFICIAL LOWER BOUNDARY OF HIVE CITY 001",
+      "kind": "floor",
+      "depth": 40000,
+      "x": 0,
+      "w": 1400,
+      "h": 120,
+      "info": {
+        "DEPTH": "-40,000 m",
+        "DESIGNATION": "TERMINAL STRATUM",
+        "IMPERIAL RECORD": "NO SUCH LEVEL EXISTS BELOW THIS POINT",
+        "STRUCTURAL BASE": "BEDROCK",
+        "VERIFIED": "NO",
+        "VERIFICATION SCHEDULED": "M38.400",
+        "VERIFICATION PERFORMED": "NO",
+        "REASON": "NO SURVEYOR HAS REQUESTED THE ASSIGNMENT TWICE"
+      },
+      "note": "This is the bottom of the city. Everything below this is not the city."
+    },
+    {
+      "id": "below-the-floor",
+      "name": "█",
+      "kind": "anomaly",
+      "depth": 43200,
+      "x": 60,
+      "w": 800,
+      "h": 1100,
+      "secret": true,
+      "info": {
+        "DEPTH": "-43,2██ m",
+        "ARCHITECTURAL CLASSIFICATION": "—",
+        "STRUCTURAL AGE": "—",
+        "POPULATION": "1",
+        "IMPERIAL RECORD": "NO DATA",
+        "LAST INSPECTION": "—",
+        "WARNING": "DO NOT OPEN LOWER ACCESS"
+      },
+      "note": "POPULATION: 1"
+    },
+    {
+      "id": "orbital-anchor",
+      "name": "ORBITAL TETHER ANCHOR — SANCTUS ASCENDANT",
+      "kind": "tether",
+      "depth": -1080,
+      "x": 340,
+      "w": 120,
+      "h": 1160,
+      "info": {
+        "ALTITUDE": "+1,080 m",
+        "TETHER LENGTH": "36,000 km",
+        "CONSTRUCTION": "M36.400",
+        "PRIMARY FUNCTION": "Void Traffic / Tithe Ascension",
+        "MAINTENANCE STATUS": "CURRENT",
+        "ANNUAL TITHE LIFTED": "9.1 million tonnes",
+        "PERSONS PERMITTED TO ASCEND": "0.0001% of population"
+      },
+      "note": "The tithe goes up. The people do not."
+    }
+  ],
+
+  "events": [
+    {
+      "depth": 60,
+      "title": "IMPERIAL ARCHIVE — SECTION OPEN",
+      "lines": [
+        "HIVE CITY 001 — TERRA",
+        "VERTICAL SURVEY INITIATED.",
+        "",
+        "SURVEYOR: [ UNREGISTERED ]",
+        "CLEARANCE: PROVISIONAL",
+        "",
+        "DESCEND."
+      ]
+    },
+    {
+      "depth": 640,
+      "title": "ADMINISTRATUM NOTICE",
+      "lines": [
+        "YOU ARE LEAVING THE SPIRE.",
+        "",
+        "RE-ENTRY REQUIRES:",
+        "FORM 44-C (CERTIFIED)",
+        "FORM 44-D (CERTIFIED)",
+        "PROOF OF UPWARD PURPOSE.",
+        "",
+        "AVERAGE PROCESSING: 61 YEARS."
+      ]
+    },
+    {
+      "depth": 2140,
+      "title": "ATMOSPHERIC ADVISORY",
+      "lines": [
+        "PARTICULATE DENSITY EXCEEDS",
+        "SANCTIONED LIMIT BY 340%.",
+        "",
+        "LIMIT REVISED M39.",
+        "LIMIT REVISED M40.",
+        "LIMIT REVISED M41.",
+        "",
+        "COMPLIANCE: NOMINAL."
+      ]
+    },
+    {
+      "depth": 3421,
+      "title": "IMPERIAL NOTICE",
+      "lines": [
+        "SECTION 17-C HAS BEEN SEALED.",
+        "",
+        "REASON:",
+        "STRUCTURAL INSTABILITY."
+      ]
+    },
+    {
+      "depth": 5300,
+      "title": "LABOUR RECORD",
+      "lines": [
+        "MANUFACTORUM BELT",
+        "",
+        "REGISTERED WORKERS: 41,200,000",
+        "SHIFT FATALITIES (ANNUM): 96,400",
+        "",
+        "PRODUCTIVITY: ACCEPTABLE",
+        "",
+        "NO FURTHER ACTION REQUIRED."
+      ]
+    },
+    {
+      "depth": 7480,
+      "title": "ECCLESIARCHY BULLETIN",
+      "lines": [
+        "THE EMPEROR PROTECTS.",
+        "",
+        "DEVOTIONAL COMPLIANCE IN THIS",
+        "STRATUM HAS FALLEN TO 71%.",
+        "",
+        "MISSIONARY DEPLOYMENT: APPROVED",
+        "MISSIONARY RETURN RATE: 22%"
+      ]
+    },
+    {
+      "depth": 9812,
+      "title": "ARCHIVE ERROR",
+      "lines": [
+        "POPULATION RECORD EXCEEDS",
+        "PLANETARY CENSUS."
+      ]
+    },
+    {
+      "depth": 11900,
+      "title": "ENFORCER WITHDRAWAL ORDER",
+      "lines": [
+        "PRECINCT 88-LOW: ABANDONED.",
+        "PRECINCT 89-LOW: ABANDONED.",
+        "PRECINCT 90-LOW: NO RESPONSE",
+        "SINCE M40.611.",
+        "",
+        "ADMINISTRATIVE STATUS OF ALL",
+        "THREE PRECINCTS: OPERATIONAL."
+      ]
+    },
+    {
+      "depth": 13750,
+      "title": "STRUCTURAL WARNING",
+      "lines": [
+        "LOAD TRANSFER IRREGULARITY.",
+        "",
+        "THIS STRATUM SUPPORTS",
+        "8.1 × 10¹² TONNES.",
+        "",
+        "RATED CAPACITY:",
+        "6.0 × 10¹² TONNES.",
+        "",
+        "STATUS: HOLDING (9,000 YEARS)"
+      ]
+    },
+    {
+      "depth": 15200,
+      "title": "END OF ADMINISTERED SPACE",
+      "lines": [
+        "BEYOND THIS DEPTH THE",
+        "ADMINISTRATUM MAINTAINS NO",
+        "CURRENT SURVEY.",
+        "",
+        "RECORDS FROM THIS POINT ARE",
+        "TRANSCRIBED FROM RECORDS.",
+        "",
+        "ORIGINALS: LOST M37."
+      ]
+    },
+    {
+      "depth": 17482,
+      "title": "ARCHITECTURAL RECORD CORRUPTED",
+      "lines": [
+        "STRUCTURE:",
+        "HABITATION",
+        "",
+        "STATUS:",
+        "ABANDONED",
+        "",
+        "LAST IMPERIAL INSPECTION:",
+        "M36.██.██",
+        "",
+        "NOTE:",
+        "",
+        "DO NOT OPEN LOWER ACCESS."
+      ]
+    },
+    {
+      "depth": 20400,
+      "title": "CENSUS ANOMALY",
+      "lines": [
+        "HEAT SIGNATURES DETECTED:",
+        "ESTIMATED 4.4 MILLION.",
+        "",
+        "REGISTERED POPULATION:",
+        "0",
+        "",
+        "RECONCILIATION: NOT SCHEDULED."
+      ]
+    },
+    {
+      "depth": 23000,
+      "title": "WARNING",
+      "lines": [
+        "THIS STRUCTURE DOES NOT APPEAR",
+        "ON ANY IMPERIAL PLAN."
+      ]
+    },
+    {
+      "depth": 26400,
+      "title": "TRANSMISSION FRAGMENT",
+      "lines": [
+        "...SURVEY TEAM SEVEN...",
+        "",
+        "...THE STAIRS CONTINUE BUT THE",
+        "BUILDING HAS ENDED...",
+        "",
+        "...REQUEST INSTRUCTION...",
+        "",
+        "[ NO INSTRUCTION WAS SENT ]"
+      ]
+    },
+    {
+      "depth": 29500,
+      "title": "STRATUM BOUNDARY",
+      "lines": [
+        "MATERIAL ABOVE: HIVE.",
+        "MATERIAL BELOW: NOT HIVE.",
+        "",
+        "THE BOUNDARY IS NOT A",
+        "FOUNDATION.",
+        "",
+        "THE HIVE RESTS ON SOMETHING",
+        "THAT WAS ALREADY LOAD-BEARING."
+      ]
+    },
+    {
+      "depth": 32800,
+      "title": "MECHANICUS ASSESSMENT",
+      "lines": [
+        "ALLOY: NOT IN CATALOGUE.",
+        "GEOMETRY: NOT IN DOCTRINE.",
+        "",
+        "RECOMMENDATION:",
+        "CLASSIFY AS ORIGINAL",
+        "CONSTRUCTION.",
+        "",
+        "RATIONALE:",
+        "IT IS SIMPLER."
+      ]
+    },
+    {
+      "depth": 36200,
+      "title": "ARCH█VE E███R",
+      "lines": [
+        "STRUCTURAL AGE EXCEEDS",
+        "RECORDED AGE OF THE PLANET'S",
+        "CRUST AT THIS DEPTH.",
+        "",
+        "THIS IS A TRANSCRIPTION ERROR.",
+        "",
+        "IT HAS BEEN CORRECTED SEVEN",
+        "TIMES. IT RETURNS."
+      ]
+    },
+    {
+      "depth": 39400,
+      "title": "TERMINAL STRATUM APPROACHING",
+      "lines": [
+        "OFFICIAL DEPTH OF HIVE CITY 001:",
+        "40,000 M",
+        "",
+        "SURVEY WILL CONCLUDE.",
+        "",
+        "PLEASE ASCEND."
+      ]
+    },
+    {
+      "depth": 40100,
+      "title": "IMPERIAL RECORD:",
+      "lines": [
+        "NO SUCH LEVEL EXISTS."
+      ]
+    },
+    {
+      "depth": 41982,
+      "title": "DEPTH: -41,982 m",
+      "lines": [
+        "ARCHITECTURAL CLASSIFICATION:",
+        "UNKNOWN",
+        "",
+        "STRUCTURAL AGE:",
+        "UNKNOWN",
+        "",
+        "POPULATION:",
+        "UNKNOWN",
+        "",
+        "IMPERIAL RECORD:",
+        "NO DATA",
+        "",
+        "LAST INSPECTION:",
+        "M.██.██",
+        "",
+        "WARNING:",
+        "",
+        "DO NOT OPEN LOWER ACCESS."
+      ]
+    },
+    {
+      "depth": 43600,
+      "title": "█████ ██",
+      "lines": [
+        "THE ACCESS IS OPEN.",
+        "",
+        "IT WAS NOT OPEN.",
+        "",
+        "IT IS OPEN."
+      ]
+    },
+    {
+      "depth": 44900,
+      "title": " ",
+      "lines": [
+        "YOU HAVE DESCENDED",
+        "45 KILOMETRES.",
+        "",
+        "THERE ARE PEOPLE ABOVE YOU",
+        "WHO WILL LIVE AND DIE WITHOUT",
+        "LEARNING THE WORD 'GROUND'.",
+        "",
+        "THE CITY DOES NOT END.",
+        "THE SURVEY ENDS."
+      ]
+    }
+  ],
+
+  "notes": [
+    { "d": -1100, "t": "A hive city is not a city with tall buildings. It is a single continuous structure that has been added to for ten thousand years and never once demolished." },
+    { "d": -820,  "t": "Nothing here was planned. Each stratum was built on the roof of the last because there was no room left and nowhere else to go." },
+    { "d": -540,  "t": "The spire tips pierce the pollution ceiling. This is the only altitude on the planet where an unmodified human can see the sun without a filter mask." },
+    { "d": -260,  "t": "Perhaps forty thousand people live above the cloud layer. The hive holds nine billion. The ratio is not considered a problem; it is considered the correct order of things." },
+    { "d": -40,   "t": "The datum line is not the ground. The ground is 45 kilometres below. The datum is simply the level the Administratum decided to call zero, in M31, for reasons no surviving document explains." },
+    { "d": 160,   "t": "Spire nobility measure rank in metres of altitude. A family that falls two hundred metres in a generation is understood to have fallen." },
+    { "d": 380,   "t": "Water arrives at the spire first and is drunk, washed in, and used for fountains before descending. By the mid hive it is filtered. By the underhive it is chewed." },
+    { "d": 620,   "t": "The Administratum employs more people in this hive than most Imperial worlds hold in total. Its function is to record the hive. It has never finished." },
+    { "d": 880,   "t": "A scribe's entire career may consist of transcribing one category of record from decaying parchment onto fresh parchment, which will also decay." },
+    { "d": 1140,  "t": "There is no map of the hive. There are four hundred thousand partial maps, most contradictory, several of districts that no longer exist, at least one of a district that never did." },
+    { "d": 1420,  "t": "Hab-block residency is inherited. So is the debt attached to it. So is the shift the debt is worked off on." },
+    { "d": 1720,  "t": "Every level has a chapel. Attendance is not optional, but nobody enforces it, because nobody has ever needed to." },
+    { "d": 2100,  "t": "The manufactorum belt is the reason the hive exists. Everything above it is administration of the belt. Everything below it is the consequence of the belt." },
+    { "d": 2480,  "t": "This hive produces munitions, vehicle components and void-ship fittings on a scale that would supply a small crusade. It consumes them at almost the same rate, internally, forever." },
+    { "d": 2900,  "t": "A manufactorum worker is taught one operation. They will perform that operation for fifty years. They will not be told what the component is for." },
+    { "d": 3300,  "t": "Machinery is not maintained so much as venerated. When a press fails, the tech-priest asks what offence was given. Sometimes this works, because the ritual includes lubrication." },
+    { "d": 3700,  "t": "The air here is technically breathable. The qualifier is doing considerable work." },
+    { "d": 4150,  "t": "Nutrient paste is manufactured from algae vats, fungal cultures, and — in the lower grades — recycled organic matter of unspecified origin. Everyone knows what Grade One is. Nobody says it." },
+    { "d": 4600,  "t": "Shifts run eighteen hours. There is no night. There has been no night at this depth for nine thousand years, only the rotation of lighting rigs and the changing of the shift horns." },
+    { "d": 5100,  "t": "The ventilation columns are the hive's lungs and its only genuine miracle of engineering. If three of the eleven stopped, forty million people would die in under a week." },
+    { "d": 5700,  "t": "Heat rises. So does smoke, effluent vapour, and the smell of everything below. The wealthy live at the top for the view, but mostly for the air." },
+    { "d": 6400,  "t": "Gang is a legal category, not a description. Below a certain depth it means any group the Arbites cannot roster, tax, or conscript." },
+    { "d": 7100,  "t": "Enforcers do not patrol. They conduct raids, then withdraw. A precinct that holds ground at this depth is a precinct that is besieged." },
+    { "d": 7700,  "t": "Somewhere in the record it is written that this hive was founded to shelter its people from a hostile world. The hostile world is now considerably safer than the shelter." },
+    { "d": 8300,  "t": "The lower hive is where the structure begins to eat itself: districts built inside the shells of older districts, foundries running in what were once cathedrals." },
+    { "d": 9000,  "t": "Rust is not a maintenance issue here. Rust is the primary building material of the last two thousand years." },
+    { "d": 9600,  "t": "Whole quarters are sealed and forgotten with their populations still inside. The paperwork records them as relocated. The paperwork is not checked." },
+    { "d": 10300, "t": "Corpse reclamation is a sacrament. The Imperium wastes nothing, least of all the dead, and the dead are the one resource the hive produces reliably." },
+    { "d": 11000, "t": "A worker at this depth will likely never travel more than two kilometres from where they were born — but two kilometres, here, is measured downward as often as sideways." },
+    { "d": 11800, "t": "Toxic runoff from the manufactorum belt drains through these levels on its way to the sump. It is drunk on the way past. There is no alternative water." },
+    { "d": 12600, "t": "Mutation is common, unacknowledged, and quietly fatal — not from the mutation, usually, but from being noticed." },
+    { "d": 13400, "t": "The load above this stratum exceeds its rated capacity by a third. It has held for nine thousand years. Engineers describe this as either a triumph or an ongoing accident, depending on seniority." },
+    { "d": 14300, "t": "Below this line the Administratum still collects tithe records. It no longer collects tithe." },
+    { "d": 15400, "t": "The underhive is not lawless. It has laws. They are simply not the Imperium's, and nobody has told the Imperium." },
+    { "d": 16200, "t": "Settlements here are built from what fell. Every wall was once a floor, a hull plate, a machine housing, a door from somewhere with doors." },
+    { "d": 17100, "t": "Scavengers work the collapse zones for archeotech, plasteel, and copper. Copper is worth more. Archeotech is worth more than copper, and worth dying for, and usually is." },
+    { "d": 18000, "t": "There are people forty generations deep down here who have never seen a straight line of natural light and do not believe in the existence of a sky." },
+    { "d": 19000, "t": "The hive's population is officially nine billion. The census counts the registered. Nobody has ever counted the rest, and nobody has been funded to try since M38." },
+    { "d": 20200, "t": "A child born here is not registered, will not be taxed, will not be conscripted, and does not exist. In the Imperium this is as close to freedom as most people get." },
+    { "d": 21400, "t": "Fungal farms, blind fish in the sump channels, rat protein. It is a functioning ecology. It was not designed. It assembled itself out of the leftovers." },
+    { "d": 22600, "t": "The sump is where forty-five kilometres of runoff finally arrives. It is not a lake. It is the hive's accumulated output, given time and depth." },
+    { "d": 23800, "t": "Things live in the sump. Surveys have confirmed this repeatedly. Classification has been pending since M38, because classification would require someone to go back." },
+    { "d": 25000, "t": "Ancient transit tunnels run through these depths on routes that match no surviving plan, toward termini that are not named in any record the Administratum holds." },
+    { "d": 26300, "t": "Some machinery down here still runs. No cable feeds it. No priest tends it. Mechanicus doctrine on such devices is a single line: do not interrupt." },
+    { "d": 27600, "t": "Survey teams sent below 25 km have a return rate the Administratum records as acceptable. The figure itself is in a different document, which is sealed." },
+    { "d": 28900, "t": "Certain accesses are sealed by order of the Holy Ordos. The seals are intact. Several were applied from this side, which raises a question nobody files." },
+    { "d": 30400, "t": "Below thirty kilometres the hive stops being architecture and becomes stratigraphy. You are no longer descending through a building. You are descending through time." },
+    { "d": 31800, "t": "The Imperium did not found this hive on bedrock. It founded it on something already here, already load-bearing, already very old." },
+    { "d": 33200, "t": "The Administratum's solution to structures it cannot explain is to classify them as original construction. This is administratively true and answers nothing." },
+    { "d": 34800, "t": "These surfaces have no joints, no tool marks, and no wear. Forty thousand metres of hive rests on them and they show no fatigue at all." },
+    { "d": 36400, "t": "Dating the substrate returns an age greater than the crust it sits in. This has been corrected seven times. It returns." },
+    { "d": 38000, "t": "There is a version of the founding record in which the first colonists arrived to find the foundations already poured. It is classified as apocryphal. It is also the oldest copy." },
+    { "d": 39600, "t": "The official floor is 40,000 metres. This figure was not measured. It was assigned." },
+    { "d": 41000, "t": "██████ does not appear in any plan, but the load calculations above it only balance if it is there." },
+    { "d": 42400, "t": "The instruments still function. Temperature, pressure and mass are all still being read correctly. It is only the records that have stopped." },
+    { "d": 43800, "t": "Nine billion people are directly above you. Not one of them knows this level exists. Two or three of them have suspected." },
+    { "d": 44800, "t": "The hive was built downward for shelter, then downward for room, then downward for ore, and then it simply kept going, and nobody in ten thousand years wrote down why." }
+  ],
+
+  "scaleLadder": [
+    { "label": "HUMAN", "meters": 1.8, "note": "Imperial citizen, standard" },
+    { "label": "SPACE MARINE", "meters": 2.6, "note": "Adeptus Astartes, armoured" },
+    { "label": "BANEBLADE", "meters": 12.0, "note": "Super-heavy battle tank" },
+    { "label": "WARHOUND TITAN", "meters": 15.0, "note": "Scout titan" },
+    { "label": "HAB BLOCK", "meters": 90.0, "note": "Single stack, 30 floors" },
+    { "label": "CATHEDRAL", "meters": 420.0, "note": "Ecclesiarchal, spire class" },
+    { "label": "HIVE TOWER", "meters": 1900.0, "note": "Spire structure" },
+    { "label": "HIVE CITY", "meters": 45000.0, "note": "Vertical extent, Hive 001" }
+  ]
+}

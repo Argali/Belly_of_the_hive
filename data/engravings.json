@@ -1,0 +1,35 @@
+{
+  "_about": "Procedurally generated copperplate etchings used as the distant backdrop. Original line art produced by js/engraving.js — nothing is downloaded and nothing is reproduced. Deterministic from the city seed, so the plates are identical on every access.",
+  "_influences": "Drawn in the vocabulary of 18th- and 19th-century architectural and technical etching: the impossible vaulted interiors of Piranesi's Carceri, the arcaded substructures of his Antichità Romane, the shaft-and-ladder plates of the Renaissance mining treatises, the branching subterranean channels of the old cosmographies, and the beam engines of industrial-revolution engineering prints. These are influences on the drawing conventions used, not sources that have been copied.",
+
+  "plates": [
+    { "id": "eng-monument-1", "kind": "monument", "depth": -820, "x": -240, "w": 1450, "h": 980, "plane": 0.66, "opacity": 0.30 },
+    { "id": "eng-arcade-1",   "kind": "arcade",   "depth": 240,   "x": 320,  "w": 1250, "h": 820, "plane": 0.70, "opacity": 0.26 },
+    { "id": "eng-monument-2", "kind": "monument", "depth": 1150,  "x": -300, "w": 1300, "h": 900, "plane": 0.68, "opacity": 0.28 },
+    { "id": "eng-arcade-2",   "kind": "arcade",   "depth": 1950,  "x": 260,  "w": 1400, "h": 860, "plane": 0.72, "opacity": 0.30 },
+
+    { "id": "eng-engine-1",   "kind": "engine",   "depth": 2900,  "x": -280, "w": 1300, "h": 880, "plane": 0.68, "opacity": 0.32 },
+    { "id": "eng-windlass-1", "kind": "windlass", "depth": 4300,  "x": 300,  "w": 1150, "h": 900, "plane": 0.70, "opacity": 0.32 },
+    { "id": "eng-stairs-1",   "kind": "stairs",   "depth": 5700,  "x": -240, "w": 1000, "h": 1050, "plane": 0.66, "opacity": 0.30 },
+    { "id": "eng-engine-2",   "kind": "engine",   "depth": 7100,  "x": 280,  "w": 1350, "h": 900, "plane": 0.72, "opacity": 0.34 },
+
+    { "id": "eng-shaft-1",    "kind": "shaft",    "depth": 8900,  "x": -260, "w": 1050, "h": 1150, "plane": 0.68, "opacity": 0.34 },
+    { "id": "eng-arcade-3",   "kind": "arcade",   "depth": 10600, "x": 260,  "w": 1400, "h": 880, "plane": 0.70, "opacity": 0.32 },
+    { "id": "eng-windlass-2", "kind": "windlass", "depth": 12300, "x": -220, "w": 1150, "h": 920, "plane": 0.66, "opacity": 0.34 },
+    { "id": "eng-stairs-2",   "kind": "stairs",   "depth": 14100, "x": 280,  "w": 1050, "h": 1150, "plane": 0.70, "opacity": 0.32 },
+
+    { "id": "eng-shaft-2",    "kind": "shaft",    "depth": 16400, "x": -240, "w": 1100, "h": 1200, "plane": 0.66, "opacity": 0.36 },
+    { "id": "eng-vault-1",    "kind": "vault",    "depth": 18800, "x": 200,  "w": 1500, "h": 1000, "plane": 0.64, "opacity": 0.36 },
+    { "id": "eng-cavern-1",   "kind": "cavern",   "depth": 21600, "x": -260, "w": 1450, "h": 1100, "plane": 0.64, "opacity": 0.32 },
+    { "id": "eng-stairs-3",   "kind": "stairs",   "depth": 24200, "x": 240,  "w": 1050, "h": 1250, "plane": 0.66, "opacity": 0.36 },
+    { "id": "eng-vault-2",    "kind": "vault",    "depth": 27000, "x": -200, "w": 1550, "h": 1050, "plane": 0.62, "opacity": 0.40 },
+
+    { "id": "eng-arcade-4",   "kind": "arcade",   "depth": 30600, "x": 220,  "w": 1600, "h": 950, "plane": 0.62, "opacity": 0.40 },
+    { "id": "eng-vault-3",    "kind": "vault",    "depth": 33400, "x": -200, "w": 1600, "h": 1100, "plane": 0.60, "opacity": 0.42 },
+    { "id": "eng-cavern-2",   "kind": "cavern",   "depth": 36200, "x": 200,  "w": 1500, "h": 1150, "plane": 0.62, "opacity": 0.38 },
+    { "id": "eng-vault-4",    "kind": "vault",    "depth": 38800, "x": -180, "w": 1650, "h": 1100, "plane": 0.60, "opacity": 0.42 },
+
+    { "id": "eng-cavern-3",   "kind": "cavern",   "depth": 41600, "x": 160,  "w": 1700, "h": 1250, "plane": 0.58, "opacity": 0.40 },
+    { "id": "eng-vault-5",    "kind": "vault",    "depth": 44300, "x": -160, "w": 1700, "h": 1150, "plane": 0.58, "opacity": 0.38 }
+  ]
+}
